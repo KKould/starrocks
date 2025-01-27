@@ -16,6 +16,7 @@ package com.starrocks.sql.optimizer.rule;
 
 public enum RuleType {
     TRANSFORMATION_RULES,
+    TF_MERGE_CROSS_JOINS,
     TF_JOIN_ASSOCIATIVITY_INNER,
 
     TF_JOIN_ASSOCIATIVITY_OUTER,
